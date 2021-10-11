@@ -9,6 +9,8 @@ Tic-Tac-Toe is played on a 3 x 3 grid. The two players are X and O. X always goe
 marks its letter (X or O) on an empty square of the grid. The game ends when either:
 (a) one player has succeeded in filling a row, column, or diagonal with its letter, or
 (b) as a tie when there are no more empty squares and neither player has won.
+
+
 We’ll consider the score to be +1 for a win, -1 for a loss, and 0 for a draw.
 Your program will be X and the user will play O. On each turn, your program will
 (a) Run MINIMAX to determine the best move for X and update the game accordingly
